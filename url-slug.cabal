@@ -21,24 +21,14 @@ extra-source-files:
   LICENSE
   README.md
 
-executable url-slug
+library
   build-depends:
     , aeson
-    , async
-    , base >=4.13.0.0 && <=4.18.0.0
-    , bytestring
-    , containers
-    , data-default
-    , directory
-    , filepath
-    , lens
-    , mtl
-    , profunctors
+    , base                >=4.13.0.0 && <=4.18.0.0
     , relude
-    , shower
     , text
-    , time
-    , with-utf8
+    , unicode-transforms
+    , uri-encode
 
   mixins:
     base hiding (Prelude),
@@ -91,6 +81,6 @@ executable url-slug
     TypeOperators
     ViewPatterns
 
-  main-is:            Main.hs
+  exposed-modules:    Network.URI.Slug
   hs-source-dirs:     src
   default-language:   Haskell2010
