@@ -5,17 +5,17 @@ license:            MIT
 copyright:          2022 Sridhar Ratnakumar
 maintainer:         srid@srid.ca
 author:             Sridhar Ratnakumar
-category:           Web
+category:           Network,Web
 
 -- TODO: Before hackage release.
 -- A short (one-line) description of the package.
--- synopsis:
+synopsis: Encoding and decoding of URL slugs
 
 -- A longer description of the package.
--- description:
+description: Encoding and decoding of URL slugs
 
 -- A URL where users can report bugs.
--- bug-reports:
+bug-reports: https://github.com/srid/url-slug
 
 extra-source-files:
   LICENSE
